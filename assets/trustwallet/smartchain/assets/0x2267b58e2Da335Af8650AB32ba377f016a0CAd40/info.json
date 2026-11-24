@@ -1,0 +1,11 @@
+{
+  "name": "Axelvor",
+  "website": "https://axelvor.com",
+  "description": "Axelvor (AXLV) is a BEP-20 token with monthly hold bonuses for continuous holders.",
+  "explorer": "https://bscscan.com/token/0x2267b58e2Da335Af8650AB32ba377f016a0CAd40",
+  "type": "BEP20",
+  "symbol": "AXLV",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x2267b58e2Da335Af8650AB32ba377f016a0CAd40"
+}
