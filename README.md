@@ -24,28 +24,6 @@ Hold-to-earn BEP-20 token on **BNB Smart Chain**.
 
 Source: [`contracts/Axelvor.sol`](contracts/Axelvor.sol)
 
-## Develop locally
-
-```bash
-cp .env.example .env   # add your PRIVATE_KEY locally — never commit .env
-npm install
-npx hardhat compile
-npx hardhat test
-```
-
-Deploy (requires funded key in `.env`):
-
-```bash
-npx hardhat run scripts/deploy.js --network bscTestnet
-npx hardhat run scripts/deploy.js --network bsc
-```
-
-## Security
-
-- Never commit `.env` or private keys
-- Deployer / owner keys should stay offline or in a hardware wallet when possible
-- This repo is open source for transparency; always verify the live contract on [BscScan](https://bscscan.com/token/0x2267b58e2Da335Af8650AB32ba377f016a0CAd40)
-
 ## License
 
 MIT
